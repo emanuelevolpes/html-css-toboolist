@@ -38,7 +38,7 @@ h1{
 
 .button-box{
     max-width: 1200px;
-    border-bottom: solid black 2px;
+    border-bottom: solid #F6F8F9 2px;
     padding-left: 50px;
     padding-bottom: 20px;
 }
@@ -113,3 +113,88 @@ h3{
     text-align: center;
 }
 
+.pseudo-elements1::before{
+    display: inline-block;
+    content: '\2713';
+    color: #65C1AA;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #65C1AA ;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.pseudo-elements1::after{
+    display: inline-block;
+    content: "Q1 Goals";
+    color: white;
+    font-weight: lighter;
+    font-size: 14px;
+    background-color: #9C72E4;
+    height: 20px;
+    width: 70px;
+    border: solid #9C72E4;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+.pseudo-elements2::before{
+    display: inline-block;
+    content: '\2715';
+    color: #ed6158;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ed6158 ;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.pseudo-elements2::after{
+    display: inline-block;
+    content: "Recruiting";
+    color: white;
+    font-weight: lighter;
+    font-size: 14px;
+    background-color: #65C1AA;
+    height: 20px;
+    width: 70px;
+    border: solid #65C1AA;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+.pseudo-elements3::before{
+    display: inline-block;
+    content: '\2713';
+    color: #65C1AA;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #65C1AA ;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.pseudo-elements3::after{
+    display: inline-block;
+    content: "Mobile";
+    color: white;
+    font-weight: lighter;
+    font-size: 14px;
+    background-color: #F29E33;
+    height: 20px;
+    width: 70px;
+    border: solid #F29E33;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;   
+}
+
+.pseudo-elements4::before{
+    display: inline-block;
+    content: '\2715';
+    color: #ed6158;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ed6158 ;
+    border-radius: 50%;
+    text-align: center;
+}
