@@ -18,3 +18,34 @@ h1{
     vertical-align: middle;
     font-family: 'Ubuntu', sans-serif;
 }
+
+.button-box{
+    background-color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: #f6f8f9 2px;
+}
+
+.button1{
+    color: white;
+    background-color: #47adf1;
+    border-color: #47adf1;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.button2{
+    color: #d6dadd;
+    background-color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px 10px 10px 10px;
+    border-color: #d6dadd;
+}
