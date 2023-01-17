@@ -1,11 +1,27 @@
 body{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+header{
     background-color: #F6F8F9;
     margin: 0;
 }
 
-header{
-    background-color: white;
+
+main{
+    background-color: #F6F8F9;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
+
 
 .logo{
     display: inline-block;
@@ -19,33 +35,44 @@ h1{
     font-family: 'Ubuntu', sans-serif;
 }
 
+
 .button-box{
-    background-color: white;
+    background-color: #F6F8F9;
     max-width: 1200px;
-    margin: 0 auto;
-    margin-top: 40px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 40px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom: #f6f8f9 2px;
+    border-bottom: white 2px;
 }
+
 
 .button1{
     color: white;
-    background-color: #47adf1;
-    border-color: #47adf1;
+    background-color: #47ADF1;
+    border-color: #47ADF1;
     height: 30px;
     width: 80px;
     border-radius: 10px 10px 10px 10px;
 }
 
 .button2{
-    color: #d6dadd;
+    color: #C8CED3;
     background-color: white;
     height: 30px;
     width: 100px;
     border-radius: 10px 10px 10px 10px;
-    border-color: #d6dadd;
+    border-color: #C8CED3;
 }
+
+h2{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Sofia Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;  
+    font-size: 20px;
+}
+
+h2::before{
+    content: '\25BC';
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+
