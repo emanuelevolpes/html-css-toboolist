@@ -2,22 +2,22 @@ body{
     margin-top: 0;
     margin-left: 0;
     margin-right: 0;
+    background-color: #F6F8F9;
 }
 
 header{
-    background-color: #F6F8F9;
+    background-color: white;
     margin: 0;
 }
 
 
 main{
-    background-color: #F6F8F9;
+    background-color: white;
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 40px;
-    padding-top: 10px;
+    padding-top: 15px;
     padding-bottom: 10px;
-    padding-left: 60px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -37,9 +37,10 @@ h1{
 
 
 .button-box{
-    background-color: #F6F8F9;
     max-width: 1200px;
-    border-bottom: white 2px;
+    border-bottom: solid black 2px;
+    padding-left: 50px;
+    padding-bottom: 20px;
 }
 
 
@@ -61,12 +62,17 @@ h1{
     border-color: #C8CED3;
 }
 
+.main-section{
+    padding-left: 50px;
+}
+
 h2{
     display: inline-block;
     vertical-align: middle;
     font-family: 'Sofia Sans', sans-serif;
     font-family: 'Ubuntu', sans-serif;  
     font-size: 20px;
+    margin-bottom: 0;
 }
 
 h2::before{
@@ -75,4 +81,35 @@ h2::before{
     padding-right: 10px;
 }
 
+h3{
+    display: inline-block;
+    font-weight: 100;
+    margin-top: 5px;
+}
+
+.pseudo-elements::before{
+    display: inline-block;
+    content: '\2713';
+    color: #65C1AA;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #65C1AA ;
+    border-radius: 50%;
+    text-align: center;
+}
+
+
+.pseudo-elements::after{
+    display: inline-block;
+    content: "Editorial";
+    color: white;
+    font-weight: lighter;
+    font-size: 14px;
+    background-color: #45ABEA;
+    height: 20px;
+    width: 70px;
+    border: solid #45ABEA;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+}
 
